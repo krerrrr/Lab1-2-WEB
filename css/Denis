@@ -15,45 +15,54 @@
 
 h1,h2,h3,h4,h5,h6{
     margin: 0;
+    text-align: center;
+}
+h2{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+    ;
 }
 
 .container{
-    margin: 0 auto;
-    width: 1200px;
+    width: 1250px;
     
 }
 
 /* Header start */
 .header {
     width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
     background-color: white;
-    z-index: 2;
+    margin-bottom: 40px;
 }
 
 .header_wrapper {
-    height: 88px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
-.header__block {
-    width: 10%;
-}
-
-.header__logo{
-    display: inline-block;
-}
 .nav{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    height: 88px;
+    padding: 0 80px;
+    border-bottom: 3px solid grey;
+
 }
 
 .nav_link{
-    margin-right: 120px;
+    margin-right: 155px;
     font-size: 18px;
     font-weight: 600;
     color: #828282;
@@ -70,63 +79,243 @@ h1,h2,h3,h4,h5,h6{
 
 }
 
-.line{
-    width: 100%;
-    height: 2px;
-    display: flex;
-    align-items: center;
-    background-color: #828282;
-    position: absolute;
-    top: 100%;
-    left: 0;
-}
 
 /* header end */
-
+/* intro start */
 .intro{
     width: 100%;
-    position: absolute;
 
 }
 
-.intro_cont{
-    height: 770px;
+.intro_wrapper{
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 6%;
+    margin-bottom: 100px;
+}
+
+.intro_blockUp{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-size: 50px;
+    width: 124px;
+    letter-spacing: .06em;
+}
+
+.subs{
+    width: 156px;
+    justify-self: center;
+    align-self: end;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0 auto 20px auto;
+}
+
+.Denis{
+    width: 100%;
+    height: 450px;
+}
+
+/* aboutme */
+.aboutme{
+    width: 100%;
+    background-color:#F6F6F6;
+    height: 450px;
+}
+
+.aboutme_wrapper{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.aboutme_block{
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutmeTXT{
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 100px 0 10px 0;
+}
+
+.aboutme_text{
+    font-size: 18px;
+    padding-bottom: 20px ;
+    text-align: center;
+    
+}
+
+/* /aboutme */
+
+/* skills */
+
+.skills{
+    width: 100%;
+}
+
+.skills_wrapper{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.skills_block{
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsTXT{
+    text-align: center;
+    margin-bottom: 8px;
+    padding: 80px 0 10px 0;
+}
+
+.skills_text{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0 60px 0 ;
+}
+
+.programes_wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+
+.programes{
+    display: inline-block;
+}
+
+.back{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prog{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -86px;
+    
+}
+
+.skills_progTXT{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 24px 0 40px 0;
+    text-align: center;
+}
+
+.starsall{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 9px;
+    padding: 0 0 220px 0;
+}
+
+.stars1{
+    padding: 15px 0  0 0;
+}
+
+/* /skills */
+
+/* portfolio */
+
+.portfolio{
+    width: 100%;
+}
+
+.portfolio_wrapper{
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.portfolio_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reklama{
+    padding: 49px 0 35px 0;
+
+}
+
+.port{
+    font-size: 18px;
+    font-weight: 500;
+    color: #070707;
+    padding: 0 0 60px 0;
+}
+
+.port:hover{
+    text-decoration: none;
+}
+
+/* /portfolio */
+
+/* contacts */
+
+.contacts{
+ width: 100%;
+}
+
+.contacts_wrapper{
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contacts_block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1{
+    padding: 150px 0 20px 0;
+}
+
+.contacts_text{
+    padding: 0 0 29px 0;
+}
+
+.contacts_link{
+    padding: 0 15px ;
+    max-width: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
-}
-
-.intro_block{
-    width: 50%;
-
-}
-
-.intro_title{
-    font-size: 46px;
-    max-width: 120px;
-    font-weight: 700;
-    color: #000;
-    margin-top: -250px;
-    margin-left: 235px;
-}
-
-.intro_txt{
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
     font-size: 18px;
-    font-weight: 400;
-    color: #000;
-    margin-top: -195px;
-    max-width: 155px;
-    margin-left: 100px;
+    height: 38px;
+    width: 166px;
+    font-weight: 700;
+    background-color: #070707;
+    border-radius: 20px;
+    transition: background-color .2s ease;
 }
 
-.intro_img{
-    height: 387px;
-    width: 944px;
-    margin-top: 250px;
-    margin-left: -800px;
-    margin-right: 100px;
-    align-items: center;
+.contacts_link:hover{
+    background-color: #373333;
 }
 
+.contacts_icon{
+    padding: 85px 0 45px;
+}
 
+.icon{
+    margin-right: 60px;
+}
+
+.icon:last-child{
+    margin-right: 0;
+}
+
+/* /contacts */
