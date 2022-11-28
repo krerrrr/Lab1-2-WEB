@@ -123,13 +123,13 @@ h4{
 /* aboutme */
 .aboutme{
     width: 100%;
-    background-color:#F6F6F6;
-    height: 450px;
 }
 
 .aboutme_wrapper{
     align-items: center;
     margin: 0 auto;
+    background-color:#F6F6F6;
+    height: 450px;
 }
 
 .aboutme_block{
