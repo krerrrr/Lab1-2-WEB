@@ -46,7 +46,6 @@ h4{
     background-color: white;
     margin: 0;
     margin-bottom: 40px;
-    border-bottom: 3px solid grey;
 }
 
 
@@ -81,6 +80,7 @@ h4{
 /* intro start */
 .intro{
     width: 100%;
+    border-top: 3px solid grey;
 
 }
 
