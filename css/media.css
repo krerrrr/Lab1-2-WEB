@@ -1,4 +1,8 @@
 @media (max-width: 600px) {
+     .header{
+        height: 160px;
+    }
+     
      .nav{
          flex-direction: column;
          justify-content: normal;
